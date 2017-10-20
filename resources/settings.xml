@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="32001">
+        <setting label="32002" type="enum" id="trigger" default="32101" lvalues="32101|32102|32103"/>
+    </category>
+</settings>
