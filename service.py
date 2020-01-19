@@ -8,7 +8,7 @@ triggers = [
     'heartbeat', # Heartbeat
 ]
 
-led_trigger_path = '/sys/class/leds/blue\:heartbeat/trigger'
+led_trigger_path = '/sys/class/leds/blue:heartbeat/trigger'
 
 class SettingsMonitor(xbmc.Monitor):
     def __init__(self, settings_changed):
